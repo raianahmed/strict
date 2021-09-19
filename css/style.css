@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+header{
+	width: 100%;
+	height:60px;
+	background: #f6f9f9;
+	margin: 0 auto;
+}
+header .logo-sec{
+	float: left;
+}
+header .logo-sec img{
+	margin: 10px 0;
+}
+header .menu-list{
+	float: right;
+}
+header .menu-list ul{
+	display: flex;
+	align-items: center;
+}
+header .menu-list ul li {
+	list-style: none;
+	margin-top: 20px;
+	/*background: red;*/
+	font-weight: 12px;
+}
+header .menu-list a {
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 40px;
+	color: #000;
+}
+/*baneer-section*/
+.banner-part{
+	background-image: url(../image/banner.png);
+	width: 100%;
+}
+.banner-sec {
+}
+.container .banner-sec .content span{
+	border: 2px;
+
+}
+.container .banner-sec .content {
+	text-align: center;
+}
+.container .banner-sec .content h2{
+	color: #fff;
+    font-size: 120px;
+    font-weight: 700;
+    padding-top: 215px;
+    position: relative;
+
+}
+.container .banner-sec .content h2:after{
+	position: absolute;
+	content: '';
+	bottom: 0;
+	width: 600px;
+	height: 2px;
+	left: 50%;
+	transform: translateX(-50%);
+	background: #15a4fa;
+}
+.container .banner-sec .content p{
+	color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 67px;
+}
+.banner-sec .call-btn {
+	padding-bottom: 178px;
+}
+.banner-sec .call-btn a{
+	color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px 34px;
+    border: 1px solid #15a4fa;
+    border-radius: 5px;
+    transition: .3s all linear;
+    text-decoration: none;
+} 
+.banner-sec .call-btn a:hover{
+	background: #15a4fa;
+    color: #fff;
+    padding: 20px 34px;
+    border: 1px solid #15a4fa;
+}
+/*intro-sec*/
+.intro-sec{
+	background: #f6f9f9;
+    padding-top: 80px;
+    padding-bottom: 110px;
+}
+.container .intro{
+	background:#f6f9f9;
+	text-align: center;
+
+}
+.intro h3{
+	text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 400;
+    color: #2d3950;
+    padding: 0 0;
+
+}
+.intro p{
+	color: #999999;
+    font-size: 22px;
+    font-weight: 400;
+	text-align: justify;
+	letter-spacing: 1px;
+}
+/*icon-section*/
+.icon-sec {
+	background: #fff;
+	width: 100%;
+	height:220px;
+
+}
+.icon-sec .container{
+	padding: 40px;	
+}
+/*icon-one*/
+.icon-sec .container .icon-one{
+	width: 33.33%;
+	float: left;
+}
+.icon-sec .container .icon-one h2{
+	text-align: center;
+	color: #2D3950;
+	margin: 32px 0px;
+}
+.icon-sec .container .icon-one p {
+	text-align: center;
+	color: #999999;
+	margin-bottom: 40px;
+	font-weight: 32px;
+
+}
+/*icon-two*/
+.icon-sec .container{}
+.icon-sec .container .icon-two{
+	width: 33.33%;
+	float: left;
+}
+.icon-sec .container .icon-two h2{
+	text-align: center;
+	color: #2D3950;
+	margin: 32px 0px;
+}
+.icon-sec .container .icon-two p{
+	text-align: center;
+	color: #999999;
+	margin-bottom: 40px;
+	font-weight: 32px;
+
+}
+/*icon-three*/
+.icon-sec .container {
+}
+.icon-sec .container .icon-three{
+	width: 33.33%;
+	float: left;
+}
+.icon-sec .container .icon-three h2{
+	text-align: center;
+	color: #2D3950;
+	margin: 32px 0px;
+}
+.icon-sec .container .icon-three p{
+	text-align: center;
+	color: #999999;
+	margin-bottom: 40px;
+	font-weight: 32px;
+}
+/*portfolio-section*/
+.portfolio-sec {
+	background: #f6f9f9;
+}
+.portfolio-sec .container{
+}
+.portfolio-sec .container .portfolio-content{
+	margin-top: 60px;
+
+}
+.portfolio-sec .container .portfolio-content h2{
+	color: #2D3950;
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 40px;
+	padding-top: 60px;
+}
+.portfolio-sec .container .portfolio-content p{
+	color: #999999;
+	text-align: center;
+	margin-top: 20px;
+	padding-bottom: 40px;
+}
+.port-item{
+	width: 100%;
+}
+.port-img{
+	float: left;
+	margin: 8px;
+}
+/*footer-section*/
+.footer-part{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+footer .footer-con{
+	float: left;
+}
+footer .footer-con p{
+	padding-top: 20px;
+}
+footer .footer-icon{
+	float: right;
+}
+
+footer .footer-icon i{
+	color: #000;
+	font-size: 16px;
+	padding: 20px;
+	border: 2px solid red;
+}
